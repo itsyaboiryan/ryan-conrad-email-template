@@ -1,1 +1,29 @@
-/*some stuff*/
+body {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.my-container {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.my-row {
+    background-color: green;
+    min-height: 100%;
+    
+}
+
+.my-col {
+    border: 1px dashed black;
+    
+
+}
+.sidebar{
+    background-color: #9c391a;
+}
