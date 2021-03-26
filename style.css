@@ -14,16 +14,39 @@ body {
 }
 
 .my-row {
-    background-color: green;
+    
     min-height: 100%;
     
 }
 
+.button{
+    background-color: #e3b23c;
+    color: white;
+    margin: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+/*
 .my-col {
     border: 1px dashed black;
     
 
-}
+}*/
 .sidebar{
-    background-color: #9c391a;
+    background-color: #423e37;
+    color: white;
+    text-align: left;
+    display: block;
+}
+.middle-row{
+    background-color: #f4f3ef;
+}
+
+.email-body{
+    background-color: #ffffff;
 }
