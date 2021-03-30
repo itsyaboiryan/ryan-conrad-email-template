@@ -7,7 +7,7 @@ body {
 
 .my-container {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     margin: 0;
     padding: 0;
     
@@ -44,14 +44,19 @@ body {
     color: white;
     text-align: left;
     display: block;
+    padding: 20px;
+    align-items: center;
 }
 .middle-row{
     background-color: #f4f3ef;
+    padding: 20px;
 }
 .email-search{
     border-radius: 5px;
     min-width: fit-content;
-    margin: 20px;
+    margin: 20px 20px 20px 20px;
+    width: 100%;
+    color:rgba(0, 0, 0, 0.5);
 }
 .email{
     border-radius: 5px;
@@ -76,4 +81,28 @@ body {
 
 .email-body{
     background-color: #ffffff;
+    padding: 20px;
+}
+
+.to-from{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.email-title{
+    margin: 20px;
+}
+.email-text{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.reply-box{
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content:end;
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
 }
