@@ -1,22 +1,19 @@
 body {
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 
 .my-container {
     height: 100vh;
     width: 100vw;
+    max-width: 100%;
     margin: 0;
     padding: 0;
-    
 }
 
 .my-row {
-    
     min-height: 100%;
-    
 }
 .user-icon{
     padding: 10px;
@@ -104,5 +101,5 @@ body {
     justify-content:end;
     width: 100%;
     margin: 20px 20px 20px 20px;
-    padding: 20px;
+    
 }
