@@ -1,5 +1,5 @@
 body {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@ body {
 
 .my-container {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0;
     padding: 0;
     
@@ -18,7 +18,9 @@ body {
     min-height: 100%;
     
 }
-
+.user-icon{
+    padding: 10px;
+}
 .button{
     background-color: #e3b23c;
     color: white;
@@ -45,6 +47,31 @@ body {
 }
 .middle-row{
     background-color: #f4f3ef;
+}
+.email-search{
+    border-radius: 5px;
+    min-width: fit-content;
+    margin: 20px;
+}
+.email{
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    min-width: fit-content;
+    padding: 10px;
+}
+.email-selected{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.664);
+    margin: 10px 0px 10px 0px;
+    min-width: fit-content;
+    padding: 10px;
+}
+.time{
+    text-align: right;
+}
+.preview-text{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 3px;
 }
 
 .email-body{
